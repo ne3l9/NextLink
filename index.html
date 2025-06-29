@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Next-Link</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/three@0.124.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bilbo+Swash+Caps&family=Caveat:wght@400..700&family=Ephesis&family=Italianno&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Meow+Script&family=Pixelify+Sans:wght@400..700&family=Playwrite+CO+Guides&display=swap" rel="stylesheet">
+</head>
+<body>
+<style>
+  
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: 0.65rem 1.4rem;
+  border-radius: var(--radius);
+  transition: var(--transition);
+  font-weight: 600;
+}
+.btn-primary {
+  background: var(--primary);
+  color: #000;
+  box-shadow: var(--primary-glow);
+}
+.btn-primary:hover { filter: brightness(1.1); }
+.btn-secondary {
+  border: 1px solid var(--primary);
+}
+.btn-secondary:hover {
+  background: var(--primary);
+  color: #000;
+}
+</style>
+<div class="page-wrapper"></div>
+  <header class="navbar">
+    <a href="#" class="logo">Next<span>Link</span></a>
+    <nav id="nav">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#what">About&nbsp;us&nbsp;</a></li>
+        <li><a href="#how">How&nbsp;It&nbsp;Works</a></li>
+        <li><a href="#market">Blogs</a></li>
+        <li><a href="#docs">Docs</a></li>
+      </ul>
+      <button id="burger">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+  <main>
+  <section id="home" class="hero">
+    <canvas id="stars"></canvas>
+
+    <div class="container hero-content">
+      <h1>We&nbsp;don't <span>Scroll,&nbsp;</span>We&nbsp;<span>Link.</span></h1>
+      <p>Where ideas, people, and purpose&nbsp;connect.</p>
+
+      <div class="cta">
+        <a href="#market" class="btn-primary"><div id="countdown" class="countdown">
+  <span id="cd-hours">720</span>:
+  <span id="cd-min">00</span>:
+  <span id="cd-sec">00</span>:
+  <span id="cd-ms">000</span>
+</div></a>
+        <a href="#how" class="btn-secondary">Learn&nbsp;More</a>
+      </div>
+    </div>
+  </section>
+<div class="thread-scroll">
+  <div class="thread-item">
+    <div class="thread-dot"></div>
+    <div class="thread-line"></div>
+    <div class="thread-wrapper">
+      <div class="thread-content">
+        <h3>About Us!</h3>
+        <p>At Next-Link, we believe the future of connection isn't just social—it's purposeful.
+
+We are not another social platform. We're building the next generation of digital identity—where ideas, ambitions, and authenticity meet in one unified space. Whether you're a creator, innovator, entrepreneur, or thinker, Next-Link empowers you to:</p>
+      </div>
+      <img src="assets/About-cropped.svg" alt="Portfolio Showcase" class="thread-image" />
+    </div>
+  </div>
+<div class="thread-scroll">
+  <div class="thread-item">
+    <div class="thread-dot"></div>
+    <div class="thread-line"></div>
+    <div class="thread-wrapper">
+      <div class="thread-content">
+        <h3>Project Portfolio Showcase</h3>
+        <p>Our website offers a platform for users to showcase their project portfolios in a professional and visually appealing manner.</p>
+      </div>
+      <img src="assets/profile-cropped (1).svg" alt="Portfolio Showcase" class="" />
+    </div>
+  </div>
+  <div class="thread-item">
+    <div class="thread-dot"></div>
+    <div class="thread-line"></div>
+    <div class="thread-wrapper">
+      <div class="thread-content">
+        <h3>Nearby Connection (Location based)</h3>
+        <p>Our website enables location-based connections, helping users discover and connect with others nearby.</p>
+      </div>
+      <img src="assets/icons8-connect-500.svg" alt="Nearby" class="thread-image" />
+    </div>
+  </div>
+  <div class="thread-item">
+    <div class="thread-dot"></div>
+    <div class="thread-line"></div>
+    <div class="thread-wrapper">
+      <div class="thread-content">
+        <h3>Groups by interest or industry</h3>
+        <p>Our website offers groups based on shared interests or industries, making it easy to connect with like-minded individuals.</p>
+      </div>
+      <img src="assets/Community-cropped.svg" alt="Groups" class="thread-image" />
+    </div>
+  </div>
+</div>
+ <section class="hero1">
+    <div class="container">
+      <h1 style="opacity: 0.9;">We are democratizing<br>the instrument of social<br>trust in a digital way.</h1>
+      <p class="lead">
+       A new era of connection begins here — where ambition meets authenticity, and every voice finds its place. Designed for the next generation of leaders, creators, and innovators — beyond LinkedIn, beyond limits.</p>
+    </div>
+    <div class="phone mock-right fade-up">
+      <img class="back-shape" src="assets/pngwing.com.png" alt="">
+      <img class="device" src="assets/mockup-cropped.svg" alt="phone">
+    </div>
+  </section>
+  <section class="section-dark">
+    <div class="phone mock-left fade-up">
+      <img class="back-shape" src="assets/pngwing.com (1).png" alt="">
+      <img class="device" src="assets/mockup-cropped.svg" alt="phone">
+    </div>
+
+    <div class="container">
+      <h2>Your social identity in the growing democracy.</h2>
+      <p class="lead">
+       Built for the bold, not the boring — this isn’t LinkedIn 2.0, it’s the future of networking. For Gen Z, by Gen Z — where your skills speak louder than suits, and your vibe builds your tribe.
+      </p>
+    </div>
+  </section>
+  <section class="section-dark center">
+    <div class="container">
+      <h2>Start with a next gen social profiling app.</h2>
+      <p class="lead">
+        Great things happen when curious minds, diverse ideas, and driven people connect — welcome to that space.
+        <span class="muted">Your projects, hobbies and networking platform, all in one.</span>
+      </p>
+      <a class="btn-primary" href="#">Join waitlist</a>
+    </div>
+
+    <div class="phone-cluster fade-up">
+      <img src="assets/mockup-cropped.svg" alt>
+      <img src="assets/mockup-cropped.svg" alt>
+      <img src="assets/mockup-cropped.svg" alt>
+    </div>
+  </section>
+</section>
+<section class="faq-section section alt">
+  <h2 class="section-title">Frequently Asked Questions</h2>
+  <p class="section-tagline">Get to know how NextLink works for you.</p>
+
+  <div class="faq-container">
+    <div class="faq-item">
+      <button class="faq-question">Who can join NextLink?</button>
+      <div class="faq-answer">
+        <p>Anyone with an interest in networking with people—students, academics, scientists, startups, and professionals in the life sciences space.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Is NextLink free to use?</button>
+      <div class="faq-answer">
+        <p>Yes! The core networking features, profile creation, and exploration tools are free. Premium features may be available in the future.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">How is NextLink different from LinkedIn or ResearchGate?</button>
+      <div class="faq-answer">
+        <p>NextLink is domain-specific, with tools designed specifically for people with certain skillsets—like project portfolios, internship affiliations, and skill graphs.</p>
+      </div>
+    </div>
+  
+    <div class="faq-item">
+      <button class="faq-question">Can I use NextLink as a student?</button>
+      <div class="faq-answer">
+        <p>It offers a unique opportunity to explore diverse career paths , gain exposure to cutting-edge research, and understand industry trends. Students can connect with experienced professionals, researchers, and mentors who can offer guidance, collaboration opportunities, and career advice. Additionally, by building a profile and showcasing early-stage research, academic projects, or internships, students can gain visibility, credibility, and potentially unlock opportunities for internships, scholarships, or future employment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+  <section id="what" class="section">
+    <div class="containers">
+      <h2 class="section-title">"You're not just building a profile — you're building your presence. One link, one idea, one connection at a time."</h2>
+        </article>
+      </div>
+    </div>
+  </section>  
+</main>
+<footer class="footer">
+  <div class="footer-content">
+   
+    <p class="footer-tagline">Connecting minds. Empowering futures.</p>
+    
+    <ul class="social">
+      <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+    </ul>
+    
+    <p class="footer-bottom">© 2025 NextLink. All rights reserved.</p> 
+    <h2 class="footer-logo">Next<span style="opacity: 0.9;">Link</span></h2>
+  </div>
+
+</div>
+</footer>
+ <script src="script.js"></script>
+</body>
+</html>
